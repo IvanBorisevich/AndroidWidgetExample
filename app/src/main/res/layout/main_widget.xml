@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="0.7"
+    android:background="#fff"
+    android:padding="@dimen/widget_margin" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_world"
+        android:textColor="#525252"
+        android:textSize="35sp"
+        style="@android:style/Widget.EditText" />
+
+</RelativeLayout>
